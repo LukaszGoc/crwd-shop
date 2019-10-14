@@ -1,10 +1,9 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
+import CONFIG from './firebase.config';
 
-const config = {
-  //firebase config
-};
+const config = CONFIG;
 
 firebase.initializeApp(config);
 
